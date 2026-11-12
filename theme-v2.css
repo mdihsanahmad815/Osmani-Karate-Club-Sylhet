@@ -1,0 +1,21 @@
+/* Shared Dark Navy + Gold palette for all legacy sub-pages in V2 */
+:root{--blue:#c99b43;--blue2:#a97925;--ink:#172238;--muted:#667386;--bg:#f4f5f7;--card:#fff;--line:rgba(16,26,46,.12);--shadow:0 24px 70px rgba(16,26,46,.12)}
+body:not(.v2){background:radial-gradient(circle at 85% 0,#f0e5cc 0,transparent 28%),var(--bg);color:var(--ink)}
+body:not(.v2):before{background:linear-gradient(120deg,rgba(255,255,255,.5),transparent 45%)}
+body:not(.v2) .nav-wrap{top:0;padding-top:0}
+body:not(.v2) .nav{background:#101a2e;border:1px solid rgba(216,173,85,.24);border-radius:0 0 18px 18px;box-shadow:0 12px 35px rgba(8,15,28,.18)}
+body:not(.v2) .brand,body:not(.v2) nav a{color:#f5f1e8}
+body:not(.v2) .brand small{color:#d8ad55}
+body:not(.v2) nav a:hover,body:not(.v2) nav a.active{color:#172238;background:#d8ad55}
+body:not(.v2) .pill{background:#1b2a43;color:#f1d28e;border-color:#d8ad5570}
+body:not(.v2) .btn.primary{background:linear-gradient(135deg,#d8ad55,#b88632);color:#172238;box-shadow:0 12px 25px rgba(184,134,50,.2)}
+body:not(.v2) .badge,body:not(.v2) .eyebrow{color:#94691e;background:#f5ecd9;border-color:#ead9b7}
+body:not(.v2) .hero-img:after{background:#d8ad55}
+body:not(.v2) .section.alt{background:rgba(232,224,207,.38)}
+body:not(.v2) .footer{background:#101a2e;color:#e9edf3}
+body:not(.v2) .footer a{color:#e9edf3}
+body:not(.v2) .floating-whatsapp{background:#d8ad55;color:#172238}
+body:not(.v2) .page-hero{background:linear-gradient(120deg,#101a2e,#1b2b45);color:#fff}
+body:not(.v2) .page-hero p{color:#d1d8e2}
+body:not(.v2) .card,body:not(.v2) .price-card,body:not(.v2) .form-card{border-color:#e7dfcf}
+@media(max-width:900px){body:not(.v2) .nav{border-radius:0 0 16px 16px}body:not(.v2) nav{background:#101a2e}body:not(.v2) nav a{color:#f5f1e8}}
